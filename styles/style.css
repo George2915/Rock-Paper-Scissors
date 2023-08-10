@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Mulish:wght@300&display=swap');
+
+* {
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kanit', sans-serif;
+}
+body {
+    background-color: #e1b382;
+}
+
+.comp-div {
+    background-color: #c89666;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    top: 40px;
+    left: 40px;
+    border: 1px solid black;
+    box-shadow: -20px 20px 0 -17px #a17171,
+    20px -20px 0 -17px #eee,
+    20px 20px 0 -20px #592385,
+    0 0 0 2px #592385;
+}
+#computer-choice {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.your-div {
+    background-color: #c89666;
+    width: 250px;
+    height: 200px;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    bottom: 160px;
+    left: 500px;
+    border: 1px solid black;
+    box-shadow: -20px 20px 0 -17px #a17171,
+            20px -20px 0 -17px #eee,
+            20px 20px 0 -20px #592385,
+            0 0 0 2px #592385;
+}
+#user-choice {
+    position: relative;
+    top: 40px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.paper {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    width: 140px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+#paper {
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+    height: 130px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+    background-color: #c89666;
+}
+
+.scissors {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    width: 140px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+#scissors {
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+    height: 130px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+    background-color: #c89666;
+}
+.rock {
+    position: relative;
+    bottom: 150px;
+    left: 70px;
+    width: 140px;
+    height: 130px;
+    border-radius: 20px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .3),
+    -23px 0 20px -23px rgba(0, 0, 0, .6),
+    23px 0 20px -23px rgba(0, 0, 0, .6),
+    inset 0 0 40px rgba(0, 0, 0, .1);
+}
+#rock {
+    border-radius: 20px;
+    border: none;
+    width: 140px;
+    height: 130px;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    position: relative;
+    cursor: pointer;
+    background-color: #c89666;
+}
+.various-choice {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.result-div {
+    position: relative;
+    right: 60px;
+    top: 70px;
+    text-align: center;
+}
+/* !get a restart button */

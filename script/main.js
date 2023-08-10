@@ -8,7 +8,7 @@ let computerChoice
 let result
 possibleChoices.forEach(possibleChoice => possibleChoice.addEventListener("click", (e) => {
     userChoice = e.target.id
-    userChoiceDisplay.innerHTML = userChoice + "!"
+    userChoiceDisplay.innerHTML = e.target.id + "!"
     generateComputerChoice()
     getResult()
 }))
@@ -51,4 +51,6 @@ function getResult() {
         result = "you win!"
     }
     resultDisplay.innerHTML = result
+    resultDisplay.style.fontSize = "40px";
+    
 }

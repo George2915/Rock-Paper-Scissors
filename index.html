@@ -6,17 +6,43 @@
         <title>Rock Paper Scissors</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="/rock_paper_scissors/style/styles.css">
+        <link rel="stylesheet" href="/styles/style.css">
     </head>
     <body>
         
-        <h2>Computer Choice:<span id="computer-choice"></span></h2>
-        <h2>Your Choice:<span id="user-choice"></span></h2>
-        <h2>Result:<span id="result"></span></h2>
-        <button id="paper">paper</button>
-        <button id="scissors">scissors</button>
-        <button id="rock">rock</button>
-        <p class="mary"> </p>
-        <script src="/rock_paper_scissors/script/main.js" async defer></script>
+        <div class="comp-div">
+            <h2 class="comp">
+                Computer Choice:
+            </h2>
+            <span id="computer-choice">  
+
+            </span>
+        </div>
+        
+        <div class="your-div">
+            <h2>Your Choice:</h2>
+            <span id="user-choice"> </span>  
+        </div>
+            
+        <div class="result-div">
+            <h2 class="my">
+                Result:
+            </h2>
+            <span id="result"> </span>
+        </div>
+        <div class="various-choice">
+            <div class="paper">
+                <button id="paper">paper</button>
+            </div>
+            <div class="scissors">
+                <button id="scissors">scissors</button>
+            </div>
+            <div class="rock">
+                <button id="rock">rock</button>
+            </div>
+        </div>
+
+
+        <script src="/script/main.js" async defer></script>
     </body>
 </html>
